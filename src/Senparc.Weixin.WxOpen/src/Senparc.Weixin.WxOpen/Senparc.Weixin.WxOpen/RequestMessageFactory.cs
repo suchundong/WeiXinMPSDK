@@ -76,6 +76,7 @@ namespace Senparc.Weixin.WxOpen
             RequestMessageBase requestMessage = null;
             RequestMsgType msgType;
             int aaa;
+            int bbb;
             try
             {
                 msgType = MsgTypeHelper.GetRequestMsgType(doc);
